@@ -18,3 +18,5 @@ font-size: 1.3em;
 blockquote{
 font-style: italic;
 }
+*{padding: 0px;
+margin: 0px;}
