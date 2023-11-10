@@ -50,13 +50,9 @@ border-color: white;}
 border-top-right-radius: 2em;
 border-bottom-left-radius: 2em;}
 .elixirs{
-border-style: solid;
-border-color: #007e7e;
-border-width: 20px; 
-padding-right: 20px;
-padding-bottom: 20px;
-padding-left: 20px;
-margin-left: 20px;
+border: 20px solid #007e7e;
+padding: 0px 20px 20px 20px
+margin:0px 0px 0px 20px
 background-image: url(images/cocktail.gif);
 background-repeat: repeat-x;
 text-align: center;}
@@ -68,3 +64,18 @@ color: #d12c47;
 }
 .elixirs{
 line-height: 1;}
+.cd {
+	font-style: italic;
+}
+.artist {
+	font-weight: bold;
+}.elixirs a:link {
+  color: #007e7e;
+}
+.elixirs a:visited {
+  color: #333333;
+}
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
