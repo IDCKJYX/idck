@@ -199,6 +199,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 50px;
+    
   }
    .content .visit section {
     margin-top: 20px;
@@ -211,6 +212,7 @@
     position: relative;
     width: 100%;
     height: 100%;
+    
   }
    .content .visit section a::before {
     background-color: #1d1d1d;
@@ -263,18 +265,18 @@
   .member .menber_box .become {
     flex: 1;
   }
-   .member .menber_box .become p {
+.member .menber_box .become p {
     font-weight: 600;
     font-size: 24px;
   }
-   .member .menber_box .find {
+.member .menber_box .find {
     flex: 1;
   }
   .member .menber_box .find p {
     font-size: 14px;
     line-height: 1.5;
   }
-   .member .menber_box .find a {
+.member .menber_box .find a {
     position: relative;
     margin: 10px 0;
     display: block;
