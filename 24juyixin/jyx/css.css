@@ -1,189 +1,6 @@
 .content {
     background-color: #000;
   }
-.content .book {
-    padding: 30px 0;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-  }
-.content .book section {
-    flex: 1;
-  }
-.content .book section p {
-    color: #fff;
-    font-weight: 600;
-  }
-.content .book section:first-child p {
-    font-size: 24px;
-  }
-.content .book section:last-child {
-    padding-left: 40%;
-  }
-.content .book section:last-child p {
-    margin: 3px 0;
-  }
-.content .book section:last-child p a {
-    color: #fff;
-    text-decoration: underline;
-  }
-.content .book section:last-child p a:hover {
-    text-decoration: none;
-  }
-.content .events {
-    width: 90%;
-    margin: 0 auto;
-    border-bottom: 1px solid #4a4a4a;
-    border-top: 1px solid #4a4a4a;
-    padding-bottom: 50px;
-  }
-.content .events .title {
-    padding: 50px 0;
-    display: flex;
-    justify-content: space-between;
-  }
-.content .events .title p {
-    color: #fff;
-    font-weight: 600;
-    font-size: 20px;
-  }
-.content .events .title .title_more a {
-    position: relative;
-    color: #fff;
-  }
-.content .events .title .title_more a:first-child:hover {
-    border-bottom: 2px solid #fff;
-  }
-.content .events .title .title_more a:last-child {
-    margin-left: 20px;
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 18px;
-    background-color: #fff;
-    color: #000;
-  }
-.content .events .event_list {
-    display: flex;
-    justify-content: space-between;
-  }
-.content .events .event_list section {
-    flex: 1;
-  }
-.content .events .event_list section a {
-    position: relative;
-    display: block;
-  }
-.content .events .event_list section a::before {
-    background-color: #1d1d1d;
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53),
-      background-color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-  }
-.content .events .event_list section a p {
-    position: relative;
-    padding: 20px;
-    color: #faa21b;
-    font-size: 18px;
-    font-weight: 600;
-    height: 48px;
-  }
-.content .events .event_list section a .book_now {
-    position: relative;
-    display: flex;
-    margin: 20px 0;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-.content .events .event_list section a .book_now p {
-    color: #fff;
-    line-height: 1.5;
-    font-weight: 500;
-  }
-.content .events .event_list section a .book_now span {
-    display: block;
-    width: 86px;
-    height: 86px;
-    line-height: 86px;
-    text-align: center;
-    background-color: #faa21b;
-    border-radius: 50%;
-    color: #000;
-  }
-.content .events .event_list section a .event_img {
-    position: relative;
-    height: 315px;
-    overflow: hidden;
-  }
-.content .events .event_list section a .event_img img {
-    width: 100%;
-  }
-.content .events .event_list section:first-child {
-    margin-right: 15px;
-  }
-.content .events .event_list section:first-child:hover a::before {
-    background-color: #faa21b;
-    bottom: -15px;
-    left: -15px;
-    right: -15px;
-    top: -15px;
-    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-  }
-.content .events .event_list section:first-child:hover a p {
-    color: #000;
-  }
-.content .events .event_list section:first-child:hover a p span {
-    border-bottom: 1px solid #000;
-  }
-  .container
-    .content
-    .events
-    .event_list
-    section:first-child:hover
-    a
-    .book_now
-    span {
-    color: #faa21b;
-    background-color: #000;
-  }
-.content .events .event_list section:last-child {
-    margin-left: 15px;
-  }
-.content .events .event_list section:last-child:hover a::before {
-    background-color: #ffe800;
-    bottom: -15px;
-    left: -15px;
-    right: -15px;
-    top: -15px;
-    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-  }
-.content .events .event_list section:last-child:hover a p {
-    color: #000;
-  }
-.content .events .event_list section:last-child:hover a p span {
-    border-bottom: 1px solid #000;
-  }
-  .container
-    .content
-    .events
-    .event_list
-    section:last-child:hover
-    a
-    .book_now
-    span {
-    color: #ffe800;
-    background-color: #000;
-  }
 .content h3 {
     padding-top: 40px;
     width: 90%;
@@ -192,7 +9,7 @@
     font-size: 24px;
     font-weight: 600;
   }
-   .content .visit {
+.content .visit {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -201,20 +18,20 @@
     padding-bottom: 50px;
     
   }
-   .content .visit section {
+.content .visit section {
     margin-top: 20px;
     margin-bottom: 10px;
     width: 48%;
     background-color: #1d1d1d;
   }
-   .content .visit section a {
+.content .visit section a {
     display: block;
     position: relative;
     width: 100%;
     height: 100%;
     
   }
-   .content .visit section a::before {
+.content .visit section a::before {
     background-color: #1d1d1d;
     bottom: 0;
     content: "";
@@ -223,26 +40,26 @@
     position: absolute;
     right: 0;
     top: 0;
-    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53),
-      background-color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    background-color 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   }
-   .content .visit section a img {
+.content .visit section a img {
     position: relative;
     width: 100%;
   }
-   .content .visit section a p {
+.content .visit section a p {
     position: relative;
   }
-   .content .visit section a p:first-of-type {
+.content .visit section a p:first-of-type {
     padding: 30px;
     color: #fff;
     font-weight: 600;
   }
-   .content .visit section a p:last-of-type {
+.content .visit section a p:last-of-type {
     color: #a5a5a5;
     padding: 0px 30px 20px 30px;
   }
- .content .visit section:hover a::before {
+.content .visit section:hover a::before {
     bottom: -15px;
     left: -15px;
     right: -15px;
@@ -252,10 +69,10 @@
     .content .visit section:hover a p span {
     border-bottom: 2px solid #fff;
   }
-   .member {
+.member {
     width: 100%;
   }
-   .member .menber_box {
+.member .menber_box {
     width: 75%;
     background-color: #fff;
     margin: 50px auto;
@@ -285,7 +102,7 @@
     color: #fff;
     padding: 15px;
   }
-   .member .menber_box .find a::after {
+.member .menber_box .find a::after {
     position: absolute;
     content: ">";
     width: 18px;
@@ -300,7 +117,7 @@
     font-size: 12px;
     color: #000;
   }
- .member .menber_box .find a:hover {
+.member .menber_box .find a:hover {
     color: #000;
     background-color: #fff;
     border: 1px solid #000;
